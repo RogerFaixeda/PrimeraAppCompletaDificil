@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LlistatAlumnes">
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="700dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Spinner
+                android:id="@+id/spinnerSelectCurs"
+                android:layout_width="277dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="28dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="356dp"
+                android:layout_height="403dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="64dp"
+                tools:itemCount="5"
+                tools:listitem="@layout/card_view_design" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="151dp"
+                android:layout_height="43dp"
+
+                android:text="Exit" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

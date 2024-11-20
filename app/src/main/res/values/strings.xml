@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PrimeraAppCompleta</string>
+    <string name="seg_ent">Següent</string>
+    <string name="afegir">Afegir</string>
+    <string name="edat">Edat</string>
+    <string name="nom">Nom</string>
+    <string-array name="cursos">
+        <item>SMX 1</item>
+        <item>SMX 2</item>
+        <item>DAM 1</item>
+        <item>DAM 2</item>
+    </string-array>
+</resources>
