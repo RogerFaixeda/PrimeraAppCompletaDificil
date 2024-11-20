@@ -4,6 +4,7 @@
     <string name="afegir">Afegir</string>
     <string name="edat">Edat</string>
     <string name="nom">Nom</string>
+    <string name="exit">Exit</string>
     <string-array name="cursos">
         <item>SMX 1</item>
         <item>SMX 2</item>

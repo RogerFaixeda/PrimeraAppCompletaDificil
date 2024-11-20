@@ -35,11 +35,11 @@
                 tools:listitem="@layout/card_view_design" />
 
             <Button
-                android:id="@+id/buttonExit"
+                android:id="@+id/botoSortir"
                 android:layout_width="151dp"
                 android:layout_height="43dp"
 
-                android:text="Exit" />
+                android:text="@string/exit" />
 
         </LinearLayout>
 

@@ -26,7 +26,7 @@ class LlistatAlumnes : AppCompatActivity() {
         binding.spinnerSelectCurs.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item,
             resources.getStringArray(R.array.cursos))
 
-        binding.buttonExit.setOnClickListener {
+        binding.botoSortir.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
